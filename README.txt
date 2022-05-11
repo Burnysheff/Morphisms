@@ -1,4 +1,4 @@
-To start the program, download the JAR file, which is situated in out/artifacts/Morphims_jar
+To start the program, download the JAR file, which is called Morphims.jar
 
 After doing this, execute the following command in terminal: java -jar "%Directory to jar%", where
 %Directory to jar% is the path to downloaded jar file.

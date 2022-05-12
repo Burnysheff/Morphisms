@@ -1,4 +1,4 @@
-To start the program, download the JAR file in directory Desktop.
+To start the program, download the JAR.
 
 There are 2 JARs, one of them require you to have JavaFX on your device, other doesn't.
 

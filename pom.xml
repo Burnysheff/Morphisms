@@ -40,6 +40,24 @@
             <artifactId>javafx-fxml</artifactId>
             <version>18.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics </artifactId>
+            <version>18.0.1</version>
+            <classifier>win</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics </artifactId>
+            <version>18.0.1</version>
+            <classifier>linux</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics </artifactId>
+            <version>18.0.1</version>
+            <classifier>mac</classifier>
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -52,37 +70,6 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>fr.lip6.pnml</groupId>
-            <artifactId>fr.lip6.pnml.framework.utils</artifactId>
-            <version>${pnml.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.lip6.pnml</groupId>
-            <artifactId>fr.lip6.pnml.framework.coremodel</artifactId>
-            <version>${pnml.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.lip6.pnml</groupId>
-            <artifactId>fr.lip6.pnml.framework.ptnet</artifactId>
-            <version>${pnml.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.lip6.pnml</groupId>
-            <artifactId>fr.lip6.pnml.framework.symmetricnet</artifactId>
-            <version>${pnml.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.lip6.pnml</groupId>
-            <artifactId>fr.lip6.pnml.framework.hlpn</artifactId>
-            <version>${pnml.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.lip6.pnml</groupId>
-            <artifactId>fr.lip6.pnml.framework.pthlpng</artifactId>
-            <version>${pnml.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>

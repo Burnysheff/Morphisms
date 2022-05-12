@@ -63,6 +63,8 @@ public class stageActs extends Group {
 
     private Label res;
 
+    private Button deleteEverything;
+
     public stageActs(Stage stage) {
         this.stage = stage;
     }
@@ -211,7 +213,7 @@ public class stageActs extends Group {
         decreaseScaling.setPrefSize(20, 20);
         this.getChildren().add(decreaseScaling);
 
-        Button deleteEverything = new Button();
+        deleteEverything = new Button();
         deleteEverything.setText("Clear the window");
         deleteEverything.setTranslateX(830);
         deleteEverything.setTranslateY(610);
@@ -238,7 +240,7 @@ public class stageActs extends Group {
     }
 
     private void deleteEverything(PetriNet petriNet) {
-        this.getChildren().removeIf(node -> node.getClass() == Place.class || node.getClass() == Transition.class || node.getClass() == Arc.class || node.getClass() == Line.class);
+        this.getChildren().removeIf(node -> node.getClass() == Place.class || node.getClass() == Transition.class || node.getClass() == Arc.class || node.getClass() == Line.class || node.getClass() == Label.class);
         petriNet.placeList.clear();
         petriNet.transitionList.clear();
         petriNet.morphismsList.clear();
@@ -462,6 +464,7 @@ public class stageActs extends Group {
         place.setVisible(false);
         transition.setVisible(false);
         delete.setVisible(false);
+        deleteEverything.setVisible(false);
         connection.setText("Cancel");
         connection.setOnAction(actionEvent -> cancelConnection());
     }

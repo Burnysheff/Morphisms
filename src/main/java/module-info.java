@@ -1,7 +1,6 @@
 module com.example.morphims {
     requires javafx.controls;
     requires javafx.fxml;
-    requires fr.lip6.pnml.framework.utils;
     requires java.xml;
 
 
